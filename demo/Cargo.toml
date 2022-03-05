@@ -1,0 +1,13 @@
+[package]
+name = "demo"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+tarantool = "*"
+serde = { version = "*", features = ["derive"] }
+log = { version = "*", features = ["max_level_debug", "release_max_level_warn"] }
+
+[lib]
+crate-type = ["cdylib"]
