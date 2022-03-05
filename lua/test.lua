@@ -57,7 +57,7 @@ function obj.start()
   -- rust
   local c2  = clock.time()
   local rs2 = rust:call('libdemo.select')
-  local t2  = clock.time() - c1
+  local t2  = clock.time() - c2
 
   return {lua = {time = t1}, rust = {time_rust_proc=rs2[3], time = t2} }
 end

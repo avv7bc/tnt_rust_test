@@ -1,7 +1,7 @@
 obj = {}
 
-  package.cpath  = package.cpath .. ";/home/user/projects/tnt_rust_test/demo/target/release/?.so"
-  package.path = package.path .. ";/home/user/projects/tnt_rust_test/lua/?.lua"
+  package.cpath  = package.cpath .. ";/home/avv/projects/rust/tnt_rust_test/demo/target/release/?.so"
+  package.path = package.path .. ";/home/avv/projects/rust/tnt_rust_test/lua/?.lua"
 
 
   net     = require('net.box')
